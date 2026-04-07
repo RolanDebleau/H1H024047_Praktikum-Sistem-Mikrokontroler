@@ -8,6 +8,7 @@ Program masuk ke blok else ketika nilai timeDelay > 100. Setiap siklus kedip sel
 Fungsi delay(timeDelay) digunakan untuk menghentikan eksekusi program sementara selama durasi waktu (dalam milidetik) yang ditentukan oleh nilai variabel timeDelay. Ini yang menyebabkan LED tampak menyala atau mati dalam durasi tertentu, sehingga kecepatan kedip LED bisa berubah-ubah sesuai nilai timeDelay.
 
 4. Ubah alur dari cepat → sedang → mati (tanpa langsung reset)
+```cpp
 // Program LED dengan alur: mati → lambat → cepat → sedang → mati
 
 const int ledPin = 6;     // LED terhubung ke pin 6
@@ -50,6 +51,9 @@ void loop() {
     }
   }
 }
+```
+
+```cpp
 ## Deskripsi
 Program ini mengontrol LED pada pin 6 Arduino dengan pola:
 mati → lambat → cepat → sedang → mati (tanpa langsung reset)
@@ -79,3 +83,4 @@ mati → lambat → cepat → sedang → mati (tanpa langsung reset)
 3. Semakin cepat hingga 100ms
 4. Melambat ke 500ms (sedang)
 5. Melambat terus hingga 1000ms → mati → jeda 3 detik → ulang
+```
