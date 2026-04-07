@@ -2,15 +2,18 @@
 ## Pertanyaan Praktikum Percobaan 1A : Percabangan
 
 1. Pada kondisi apa program masuk ke blok if?
+   
    Program masuk ke blok if ketika nilai timeDelay <= 100. Artinya, setelah LED berkedip semakin cepat dan delay sudah mencapai 100ms atau kurang, program akan masuk ke blok ini untuk memberikan jeda 3 detik lalu mereset timeDelay kembali ke 1000.
 
-3. Pada kondisi apa program masuk ke blok else?
+2. Pada kondisi apa program masuk ke blok else?
+   
    Program masuk ke blok else ketika nilai timeDelay > 100. Setiap siklus kedip selesai, nilai timeDelay dikurangi 100ms, sehingga LED berkedip semakin cepat secara bertahap.
 
-4. Apa fungsi dari perintah delay(timeDelay)?
+3. Apa fungsi dari perintah delay(timeDelay)?
+   
    Fungsi delay(timeDelay) digunakan untuk menghentikan eksekusi program sementara selama durasi waktu (dalam milidetik) yang ditentukan oleh nilai variabel timeDelay. Ini yang menyebabkan LED tampak menyala atau mati dalam durasi tertentu, sehingga kecepatan kedip LED bisa berubah-ubah sesuai nilai timeDelay.
 
-5. Ubah alur dari cepat → sedang → mati (tanpa langsung reset)
+4. Ubah alur dari cepat → sedang → mati (tanpa langsung reset)
 ```cpp
 // Program LED dengan alur: mati → lambat → cepat → sedang → mati
 
