@@ -3,7 +3,7 @@
 
 1. Gambar rangkaian schematic 5 LED running
 
-https://www.tinkercad.com/things/2HjYmh1EObS/editel?returnTo=%2Fdashboard&sharecode=IpEn2SgeJ_XBGfjF3DeP9rUv6srqNnvAHdqnxpJwKXE
+https://www.tinkercad.com/things/2HjYmh1EObS-test-lampu-kiri-kanan?sharecode=sTt4LE7Brfkh0PR6c94d0aPkYgHqvb0A_B-pyBC44o8
 
 2. Bagaimana program membuat efek LED berjalan dari kiri ke kanan?
 
