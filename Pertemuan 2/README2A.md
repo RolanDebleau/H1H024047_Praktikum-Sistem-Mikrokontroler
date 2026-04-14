@@ -5,7 +5,7 @@
 
 https://www.tinkercad.com/things/cBZXKb9pJPV-seven-segment?sharecode=2c6dAi6zMdced0uSW-g0ZB_3NeuCIBqWOgoF4zlNDwI
 
-3. Apa yang terjadi jika nilai num lebih dari 15?
+2. Apa yang terjadi jika nilai num lebih dari 15?
 
 Jika num lebih dari 15, maka terjadi akses array di luar batas (out-of-bounds array access). Array digitPattern hanya memiliki indeks 0–15 (16 elemen). Ketika num = 16 atau lebih, program Arduino akan membaca data dari lokasi memori yang tidak terdefinisi, sehingga output pada seven segment akan menampilkan pola acak/tidak karuan. Pada Arduino hal ini tidak menyebabkan crash (karena tidak ada proteksi memori), namun hasilnya tidak dapat diprediksi dan bisa merusak logika program.
 
